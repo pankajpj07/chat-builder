@@ -632,7 +632,7 @@ class ChatBuilder extends React.Component<Props, State> {
                 })}
             </Box>
 
-            {shouldDisplayBranding && <PapercupsBranding />}
+            {/* {shouldDisplayBranding && <PapercupsBranding />} */}
 
             {this.props.footer &&
               this.props.footer({
